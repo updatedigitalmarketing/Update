@@ -49,3 +49,8 @@ Official SVG logo is used in the header, footer and favicon. Main blue: #18467D.
 
 ## Rounded identity update
 Cards, project images, result panels and report dialogs use rounded corners. Buttons and form fields use coordinated smaller corner radii; filter and value chips retain their pill shape.
+
+## Client logo showcase
+Six supplied client logos link to the six Instagram profiles. Desktop: three columns and two rows; smaller screens adapt to two or one column. Hover and keyboard focus lift the card and zoom the logo; pressing gives a tap response. Eureka uses a blue logo panel to display its supplied white transparent logo.
+
+Results report account selector and identifying content thumbnails are blurred in the distributed images. Original report images with identifying information are excluded from this website folder and final ZIP. Report previews and enlarged views use the same anonymized assets.

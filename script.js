@@ -60,7 +60,7 @@ function countUp(element) {
  activeCounters.set(element, requestAnimationFrame(frame));
 }
 if ('IntersectionObserver' in window) {
- const reveals = document.querySelectorAll('.about>div, .section-heading, .service-grid article, .project, .result-feature, .result-card, .impact-heading, .impact-grid article, .approach-grid>*, .contact-grid>*');
+ const reveals = document.querySelectorAll('.social-client, .about>div, .section-heading, .service-grid article, .project, .result-feature, .result-card, .impact-heading, .impact-grid article, .approach-grid>*, .contact-grid>*');
  const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.remove('pending'); revealObserver.unobserve(entry.target); } });
  }, { threshold: 0.08 });
