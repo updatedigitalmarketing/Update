@@ -29,7 +29,23 @@ The form prepares an email through the visitor's configured email app. It does n
 Brand colors are at the top of styles.css. Change text in index.html. The destination email is in both index.html and script.js. Replace images in assets while retaining their filenames, or update the corresponding paths. No external fonts or image services are used.
 
 ## Content and assets
-Company details, service categories, project names, performance claims, quotation, and source artwork come from the supplied Update-Portfolio.pdf. Website copy adapts that material. Portfolio results are historical examples, not guarantees. The logo is a raster extraction; replace assets/logo.png with an official transparent export for maximum sharpness if available. Only publish assets you are authorized to use.
+Company details, service categories, project names, performance claims, quotation, and source artwork come from the supplied Update-Portfolio.pdf. Website copy adapts that material. Portfolio results are historical examples, not guarantees. The official logo is supplied as assets/logo.svg, copied unchanged from Update Logo.svg. The main brand blue is #18467D. Only publish assets you are authorized to use.
 
 ## Accessibility and browser support
 Includes keyboard navigation, visible focus states, a skip link, reduced-motion support, labeled form fields, image alternatives and accessible filter states. Designed for current desktop and mobile browsers.
+
+## October 27 update: motion and Results & Insights
+- Animated hero rings, entrance sequence, scroll reveals and hover transitions.
+- Results counters animate once when scrolled into view.
+- Pause/enable motion control in the hero; system reduced-motion preference is respected.
+- New Results navigation link and results section using the supplied WhatsApp report screenshots.
+- Report images open in a keyboard-accessible dialog. Close with the Close button, Escape, or backdrop.
+- All results retain their individual reporting periods. ROAS has no visible period in its screenshot. Social 30-day snapshot has no visible year. Shopify sales are store totals, not advertising attribution.
+- Analytics screenshots in assets/results are the supporting sources. Browser chrome was removed from desktop captures; metric values and graphs were not altered.
+- No dependencies or build steps were added.
+
+## Official branding correction
+Official SVG logo is used in the header, footer and favicon. Main blue: #18467D. Supporting blue tints are used for contrast on dark backgrounds.
+
+## Rounded identity update
+Cards, project images, result panels and report dialogs use rounded corners. Buttons and form fields use coordinated smaller corner radii; filter and value chips retain their pill shape.
