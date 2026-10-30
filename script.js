@@ -17,10 +17,9 @@ document.querySelector('#year').textContent = new Date().getFullYear();
 document.querySelector('#project-form').addEventListener('submit', event => {
  event.preventDefault();
  const data = new FormData(event.currentTarget);
- const subject = `New project enquiry: ${data.get('service')}`;
- const body = `Hello Update team,\n\nName: ${data.get('name')}\nEmail: ${data.get('email')}\nService: ${data.get('service')}\n\nProject details:\n${data.get('message')}\n\nLet's build something that performs.`;
- window.location.href = `mailto:info@updatedigitalmarketing.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
- document.querySelector('#form-status').textContent = 'Your email draft is ready to open. If your email app does not open, email info@updatedigitalmarketing.com directly. Your enquiry has not been sent yet.';
+ const body = `Hello Update team,\n\nName: ${data.get('name')}\nService: ${data.get('service')}\n\nProject details:\n${data.get('message')}\n\nLet's build something that performs.`;
+ window.location.href = `https://wa.me/96179076095?text=${encodeURIComponent(body)}`;
+ document.querySelector('#form-status').textContent = 'Your enquiry is ready in WhatsApp. Review it and press Send there. If WhatsApp does not open, message +961 79 076 095 directly.';
 });
 
 // Optional motion, respecting system preferences and the visitor's choice.

@@ -18,15 +18,17 @@ No build command is required. All paths are relative, so the page works on repos
 ## Files
 - index.html: page structure and content
 - styles.css: responsive layout and brand design tokens
-- script.js: mobile navigation, portfolio filters and email enquiry preparation
+- script.js: mobile navigation, portfolio filters and WhatsApp enquiry preparation
 - assets/: logo and project images extracted from the supplied portfolio
 - .nojekyll: enables plain static file hosting
 
-## Contact form
-The form prepares an email through the visitor's configured email app. It does not send a message or store submissions. Visitors review and send the email themselves. A direct email link is also available. To collect submissions directly on the website, connect a form service or backend and replace the submit handler.
+## Contact and enquiries
+Instagram: https://www.instagram.com/update.digital.marketing/
+WhatsApp: https://wa.me/96179076095 (+961 79 076 095)
+Both enquiry forms prepare a WhatsApp message. Visitors review and send it in WhatsApp. No messages are sent automatically, and submissions are not stored by the website.
 
 ## Edit
-Brand colors are at the top of styles.css. Change text in index.html. The destination email is in both index.html and script.js. Replace images in assets while retaining their filenames, or update the corresponding paths. No external fonts or image services are used.
+Brand colors are at the top of styles.css. Change text in index.html. Contact links appear on both HTML pages. The WhatsApp message destination is also in script.js and branch.js. Replace images in assets while retaining their filenames, or update the corresponding paths. No external fonts or image services are used.
 
 ## Content and assets
 Company details, service categories, project names, performance claims, quotation, and source artwork come from the supplied Update-Portfolio.pdf. Website copy adapts that material. Portfolio results are historical examples, not guarantees. The official logo is supplied as assets/logo.svg, copied unchanged from Update Logo.svg. The main brand blue is #18467D. Only publish assets you are authorized to use.
@@ -54,3 +56,6 @@ Cards, project images, result panels and report dialogs use rounded corners. But
 Six supplied client logos link to the six Instagram profiles. Desktop: three columns and two rows; smaller screens adapt to two or one column. Hover and keyboard focus lift the card and zoom the logo; pressing gives a tap response. Eureka uses a blue logo panel to display its supplied white transparent logo.
 
 Results report account selector and identifying content thumbnails are blurred in the distributed images. Original report images with identifying information are excluded from this website folder and final ZIP. Report previews and enlarged views use the same anonymized assets.
+
+## Your Second Branch concept
+Homepage hero offer links to your-second-branch.html. The new page welcomes expressions of interest through an WhatsApp message form, with direct WhatsApp and Instagram links. Pricing and package promises remain unpublished until confirmed. Edit the new page after Sales and Content agree on scope, fees, responsibilities and copy. branch.js is separate from the homepage script. All earlier brand, animation, client-card and privacy updates remain included.
